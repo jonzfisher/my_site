@@ -18,7 +18,7 @@ const IndexPage = () => (
       <a href="https://dribbble.com/shots/3942531-Continue" className="case-study-container dib">
         <img src={continue_wip} className="case-study-thumb" />
       </a>
-      <Link to="/page-2/" className="case-study-container dib">
+      <Link to="/historical/" className="case-study-container dib">
         <img src={historical_homecrafters} className="case-study-thumb" />
       </Link>
     </div>
