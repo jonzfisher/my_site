@@ -93,7 +93,8 @@ const SecondPage = () => (
       so I value a large contrast ratio. Our main site colors (
       <span className="i">#471D1D</span> and
       <span className="i"> #FFFFD9</span>) have a 14.1:1 contrast ratio, which is good at any
-      reasonably-sized font size.
+      reasonably-sized font size. All text on the site meet the AAA WCAG
+      standard.
     </p>
     <p className="f4 mb0 mt2">
       The fonts I use are Avenir and Athelas, a sans-serif and serif font,
