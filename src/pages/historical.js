@@ -99,13 +99,14 @@ const SecondPage = () => (
     <p className="f4 mb0 mt2">
       The fonts I use are Avenir and Athelas, a sans-serif and serif font,
       respectively. Avenir is used for clear calls-to-action while Athelas is
-      mainly used for readably copy.
+      mainly used for readable copy.
     </p>
     <h3 className="fw7 f4 mb0 mt4">The Color</h3>
     <p className="f4 mb0 mt2">
-      The two main background colors that make up the site are a gradient with
+      The two main background colors that make up the site are gradients with
       small tweaks in saturation, and brightness. The hue however stayed the
-      same for both darker reds (#471D1D <ColorSwatchRed /> and #2E0F0F <ColorSwatchDarkRed />). This ends up helping the copy, through trick
+      same for both darker reds (#471D1D <ColorSwatchRed /> and #2E0F0F
+      <ColorSwatchDarkRed />). This ends up helping the copy, through trick
       of the eye, to jump off the screen a bit and gives the rendering
       a sheen. This enabled me to give the site a newness without having to be
       too adventurous for a client.
@@ -121,7 +122,9 @@ const SecondPage = () => (
       order to serve the client.
     </p>
 
-    <Link to="/" className="link dark-green dim fw7 spectral underline dib mb0 mt4">\\ Back To Home</Link>
+    <Link to="/" className="link dark-green dim fw7 spectral underline dib mb0 mt4">
+      \\ Back To Home
+    </Link>
   </div>
 )
 
