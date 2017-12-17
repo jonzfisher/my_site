@@ -60,7 +60,7 @@ const TemplateWrapper = ({ children }) => (
       {children()}
     </div>
     <footer className="spectral db m0 w-100">
-      <div className="mw8 center ph5 pv4 f5 fw7">
+      <div className="mw8 center ph5-ns ph4 pv4 f5 fw7">
         <a href="http://github.com/jonzfisher" title="Github" className="dib link navy">Github</a>
         <a href="http://twitter.com/@jonzfisher" title="Github" className="dib link navy pl2">Twitter</a>
         <a href="http://medium.com/@jonzfisher" title="Medium" className="dib link navy pl2">Medium</a>
