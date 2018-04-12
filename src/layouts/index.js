@@ -17,11 +17,7 @@ const Header = () => (
       }}
     >
       <div
-        style={{
-          margin: '0 auto',
-          maxWidth: 960,
-          padding: '3rem 2rem',
-        }}
+        className="mw8 center ph5-ns ph4 pt4"
       >
         <Link
           to="/"
@@ -50,16 +46,11 @@ const TemplateWrapper = ({ children }) => (
     </Helmet>
     <Header />
     <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 2rem 3rem',
-        paddingTop: 0,
-      }}
+      className="center mw8 pt0 ph5-ns ph4"
     >
       {children()}
     </div>
-    <footer className="spectral db m0 w-100">
+    <footer className="spectral db w-100">
       <div className="mw8 center ph5-ns ph4 pv4 f5 fw7">
         <a href="http://github.com/jonzfisher" title="Github" className="dib link navy">Github</a>
         <a href="http://twitter.com/@jonzfisher" title="Github" className="dib link navy pl2">Twitter</a>
